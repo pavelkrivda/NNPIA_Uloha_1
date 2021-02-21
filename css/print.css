@@ -1,0 +1,13 @@
+@media print {
+  header {
+      display: none;
+  }
+
+  #hero {
+    height: 400px;
+  }
+
+  footer{
+      display: none;
+  }
+}

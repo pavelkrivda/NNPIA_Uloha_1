@@ -1,0 +1,197 @@
+@media screen and (max-width: 1300px) and (min-width: 900px) {
+    #hero {
+      height: 340px;
+    }
+  
+    .pageHeading {
+      font-size: 100px;
+      padding-top: 50px;
+      margin-bottom: 50px;
+    }
+  
+    #person div {
+      width: 350px;
+      font-size: 18px;
+    }
+  
+    .sectionPreview {
+      width: 800px;
+    }
+  
+    td {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) and (min-width: 558px) {
+    #hero {
+      height: 200px;
+    }
+  
+    .pageHeading {
+      font-size: 60px;
+      padding-top: 20px;
+    }
+  
+    #person div {
+      width: 300px;
+      font-size: 14px;
+    }
+  
+    .sectionPreview {
+      width: 600px;
+    }
+  
+    td {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 730px) and (min-width: 558px) {
+    #hero {
+      height: 200px;
+    }
+  
+    .pageHeading {
+      font-size: 60px;
+      padding-top: 20px;
+    }
+  
+    #person {
+      width: 300px;
+      display: block;
+      margin: auto;
+    }
+  
+    #personImage {
+      margin-left: 30px;
+    }
+  
+    #person h1 {
+      font-size: 25px;
+    }
+  
+    #person div {
+      width: 300px;
+      font-size: 14px;
+    }
+  
+    .sectionPreview {
+      width: 500px;
+    }
+  
+    td {
+      font-size: 16px;
+    }
+
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    footer ul {
+      text-align: center;
+    };
+  }
+  
+  @media screen and (max-width: 557px) and (min-width: 321px) {
+    #hero {
+      height: 430px;
+    }
+  
+    .pageHeading {
+      font-size: 100px;
+      padding-top: 20px;
+      margin-bottom: 50px;
+    }
+  
+    #person {
+      padding-top: 30px;
+      width: 537px;
+      font-size: 18px;
+    }
+  
+    .icons {
+      margin-left: 80px;
+    }
+  
+    #person div {
+      width: 537px;
+    }
+  
+    #person h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    #personImage {
+      width: 300px;
+      display: block;
+      margin: auto;
+    }
+  
+    .sectionPreview {
+      width: 537px;
+    }
+  
+    td {
+      font-size: 18px;
+    }
+
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    footer ul {
+      text-align: center;
+    };
+  }
+  
+  @media screen and (max-width: 320px) {
+    #hero {
+      height: 400px;
+    }
+  
+    .pageHeading {
+      font-size: 70px;
+      padding-top: 20px;
+      margin-bottom: 50px;
+    }
+  
+    #person {
+      padding-top: 30px;
+      width: 300px;
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 14px;
+      flex-direction: row;
+    }
+  
+    #person h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    #personImage {
+      width: 300px;
+      margin: auto;
+    }
+  
+    .sectionPreview {
+      width: 300px;
+    }
+  
+    td {
+      font-size: 14px;
+    }
+
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    footer ul {
+      text-align: center;
+    };
+  }
