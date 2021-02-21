@@ -7,28 +7,41 @@
 
     <title>Životopis</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <link rel="stylesheet" href="css/styly.css">
-    <link rel="stylesheet" href="css/navigate.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" media="print" href="css/print.css" />
 
+
+    
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <span id="toggle-nav" onclick="toggleNav()">
-                <i class="fa fa-bars"></i>
-            </span>
-            <ul id="navlist">
-                <li><a href="#">Domů</a></li>
-                <li><a href="#">Autor</a></li>
-                <li><a href="#">Kontakt</a></li>
-                <li><a href="#">Články</a></li>
-            </ul>
+        <script src="js/bootstrap.min.js"></script>
 
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Domů <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Autor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontakt</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Články</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
     </header>
 
     <main>

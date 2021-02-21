@@ -6,6 +6,26 @@ main {
   margin-bottom: 40px;
 }
 
+nav div ul {
+  margin: auto;
+  font-size: 20px;
+}
+
+nav div ul li:hover {
+  width: 300px;
+  background: red;
+  text-align: center;
+}
+
+nav div ul li {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 150px;
+  transition: width 2s;
+}
+
 .button {
   background-color: gray;
   color: white;
